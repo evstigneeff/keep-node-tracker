@@ -1,0 +1,40 @@
+{{>header}}
+<div class="container">
+    <div class="row">
+        <!-- RB card -->
+        <div class="col-sm-6">
+            <div class="card shadow mt-2">
+                <div class="card-header">
+                    <h3 class="text-center">Random Beacon Nodes</h3>
+                </div>
+                <div class="block card-body">
+                    <p>Random Beacon Nodes provide the Keep protocol with a source of trusted randomness, which is used
+                        internally by the protocol and may be used by other blockchains and decentralized applications
+                        (dApps) that require decentralized and verifiably non-deterministic randomness.</p>
+                </div>
+                <div class="card-footer">
+                    <a class="btn btn-block btn-outline-secondary" href="/rb">View All Nodes</a>
+                </div>
+            </div>
+        </div>
+        <!-- ECDSA card -->
+        <div class="col-sm-6">
+            <div class="card shadow mt-2">
+                <div class="card-header">
+                    <h3 class="text-center">ECDSA Nodes</h3>
+                </div>
+                <div class="transaction card-body">
+                    <p>ECDSA Nodes secure the transactions with multiple individual key shares, held independently by
+                        multiple signers. Decentralized signing is performed with sMPC (secure multi-party computation)
+                        for computation on private key shares without revealing them. Responsibility for signatures is
+                        divided, requiring a threshold number of participants to create a signature using their key
+                        shares. </p>
+                </div>
+                <div class="card-footer">
+                    <a class="btn btn-block btn-outline-secondary" href="/ecdsa">View All Nodes</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{>footer}}
