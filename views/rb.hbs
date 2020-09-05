@@ -3,8 +3,7 @@
     <h1>The total number of ECDSA Nodes is {{data.rbNum}}</h1>
     <ul class="list-group">
         {{#each data.rbID}}
-        <li class="list-group-item"><a href="/rb/{{this}}">{{this}}</a></li>
+        <li class="list-group-item" style="overflow:hidden; text-overflow:ellipsis"><a href="/rb/{{this}}">{{this}}</a></li>
         {{/each}}
     </ul>
 </div>
-{{>footer}}

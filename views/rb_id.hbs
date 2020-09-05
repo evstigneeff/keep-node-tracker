@@ -4,8 +4,7 @@
     <ul class="list-group">
         {{#each data.rbTx}}
         {{!-- <li class="list-group-item"><a href="{{data.url}}/tx/{{this}}">{{this}}</a></li> --}}
-        <li class="list-group-item"><a href="https://ropsten.etherscan.io/tx/{{this}}">{{this}}</a></li>
+        <li class="list-group-item" style="overflow:hidden; text-overflow:ellipsis"><a href="https://ropsten.etherscan.io/tx/{{this}}">{{this}}</a></li>
         {{/each}}
     </ul>
 </div>
-{{>footer}}
