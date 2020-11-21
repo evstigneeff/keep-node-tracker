@@ -44,7 +44,7 @@ const getTxECDSA = async (addr) => {
 app.get("/", async (req, res) => {
     res.render("home", {
         data: {
-            title: "Keep Node Info"
+            title: "Keep Node Info (Mainnet)"
         }
     })
 })
